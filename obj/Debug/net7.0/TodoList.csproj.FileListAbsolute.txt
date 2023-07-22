@@ -29,3 +29,4 @@
 /Users/mubarikmohamed/Projects/BLAZOR/TodoList/obj/Debug/net7.0/TodoList.pdb
 /Users/mubarikmohamed/Projects/BLAZOR/TodoList/obj/Debug/net7.0/TodoList.genruntimeconfig.cache
 /Users/mubarikmohamed/Projects/BLAZOR/TodoList/obj/Debug/net7.0/ref/TodoList.dll
+/Users/mubarikmohamed/Projects/BLAZOR/TodoList/obj/Debug/net7.0/TodoList.sourcelink.json

@@ -6,7 +6,7 @@
         <li>  
             <input type="checkbox" @bind="item.IsDone" />
             <span style="text-decoration:@(item.IsDone?"overline red":"unset")"> @item.Title </span>
-            @* //<button @onclick="RemoveTask(item.Title)">X</button> *@
+           <button @onclick="()=> RemoveTask(item.Title)">X</button> 
         </li>
     }
 </ul>
