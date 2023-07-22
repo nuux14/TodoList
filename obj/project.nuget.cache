@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "bhcA7onl96v9yekMdzINTdjrbYX9B9sINVltZ725/IyuKp5bIWV6ykguxy+DV7cOOYoHdWicEONDymWRovQSNQ==",
+  "success": true,
+  "projectFilePath": "/Users/mubarikmohamed/Projects/BLAZOR/TodoList/TodoList.csproj",
+  "expectedPackageFiles": [
+    "/Users/mubarikmohamed/.nuget/packages/microsoft.netcore.app.ref/7.0.8/microsoft.netcore.app.ref.7.0.8.nupkg.sha512",
+    "/Users/mubarikmohamed/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.8/microsoft.aspnetcore.app.ref.7.0.8.nupkg.sha512",
+    "/Users/mubarikmohamed/.nuget/packages/microsoft.netcore.app.host.osx-arm64/7.0.8/microsoft.netcore.app.host.osx-arm64.7.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
