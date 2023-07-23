@@ -1,4 +1,9 @@
-## Blazor Server Todo list app
+Blazor Server Todo list app
+==============================
+
+[![MIT License](https://img.shields.io/github/license/nuux14/TodoList?color=%230b0&style=flat-square)](https://github.com/nuux14/TodoList/blob/main/LICENSE)
+[![Open Issues](https://img.shields.io/github/issues/nuux14/TodoList/good%20first%20issue?color=%23512BD4&label=good%20first%20issue&style=flat-square)](https://github.com/nuux14/TodoList/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+
 A simple asp.net core blazor server todo list app (.NET 7). In this project we are using SQLite database
 
 ### Visual Studio Code (or any code editor)
