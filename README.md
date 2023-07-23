@@ -7,22 +7,30 @@ A simple asp.net core blazor server todo list app (.NET 7). In this project we a
 1. If you haven't installed the EF Core Command Line Interface (CLI), install it by following [these instructions](https://docs.microsoft.com/ef/core/miscellaneous/cli/dotnet). Choose the latest stable version (the project file currently ships with version 7.0.9).
 1. This migration step has already been done but for reference this is what you'd have done: 
 
-    `dotnet ef migrations add Initial` 
+    ```text
+   dotnet ef migrations add Initial
+    ``` 
 
     or if you would want you could specify the DbContext option like this:
 
 
-    `dotnet ef migrations add --context TodoDbContext Initial` 
+    ```text
+   dotnet ef migrations add --context TodoDbContext Initial
+   ```
    
     to set up the  database migrations (already done).
 1. Run 
 
-    `dotnet ef database update` 
+    ```text
+   dotnet ef database update
+   ``` 
     
     to create the TodoList database.
 1. Type 
 
-   `dotnet run` or `dotnet watch`
+   ```text
+   dotnet run` or `dotnet watch
+   ```
     
    to start the server. Navigate to the port specified.
   
