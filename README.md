@@ -14,7 +14,7 @@ A simple asp.net core blazor server todo list app (.NET 7). In this project we a
 
     `dotnet ef migrations add --context TodoDbContext Initial` 
    
-    to set up the  database migrations.
+    to set up the  database migrations (already done).
 1. Run 
 
     `dotnet ef database update` 
