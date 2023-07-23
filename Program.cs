@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
+using Microsoft.EntityFrameworkCore;
+using TodoList;
 using TodoList.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +10,12 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
+
+var conString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+builder.Services.AddScoped<TodoDbService>();
+builder.Services.AddDbContext<TodoDbContext>(options=> options.UseSqlite(conString));
+
 
 var app = builder.Build();
 

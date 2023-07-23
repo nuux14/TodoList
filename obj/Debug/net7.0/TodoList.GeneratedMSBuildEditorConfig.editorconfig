@@ -33,10 +33,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mubarikmohamed/Projects/BLAZOR/TodoList/Pages/Todo.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVG9kby5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Users/mubarikmohamed/Projects/BLAZOR/TodoList/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -44,6 +40,10 @@ build_metadata.AdditionalFiles.CssScope =
 [/Users/mubarikmohamed/Projects/BLAZOR/TodoList/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mubarikmohamed/Projects/BLAZOR/TodoList/Pages/Todo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVG9kby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-ol4vtxorye
 
 [/Users/mubarikmohamed/Projects/BLAZOR/TodoList/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=

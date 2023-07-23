@@ -1,12 +1,13 @@
 ﻿@page "/todo"
+@inject TodoDbService TodoService
 
 <h3>Todo</h3> 
-<ul style="list-style-type: none">
+<ul>
     @foreach(var item in todos){
         <li>  
-            <input type="checkbox" @bind="item.IsDone" />
-            <span style="text-decoration:@(item.IsDone?"overline red":"unset")"> @item.Title </span>
-           <button @onclick="()=> RemoveTask(item.Title)">X</button> 
+            <input id="iscomplete" type="checkbox" @bind="item.IsDone" />
+            <span style='text-decoration:@(item.IsDone?"line-through":"none")'> @item.Title </span>
+           <span id="cancel"  @onclick="()=> RemoveTask(item.Title)">X</span> 
         </li>
     }
 </ul>
@@ -19,12 +20,18 @@
  <button @onclick="AddItem">Add Task</button>
 
 @code {
-    private string? newTodo="First task or";
+    private string? newTodo;
     private List<TodoItem> todos {get;set;} = new();
-    
-    void AddItem(){
+
+        protected override void OnInitialized()
+        {
+            base.OnInitialized();
+            todos = TodoService.GetTodoList();
+        }
+        void AddItem(){
        if(!string.IsNullOrWhiteSpace(newTodo)){
-         todos.Add( new TodoItem{ Title = newTodo});
+        TodoService.AddTodo( new TodoItem{ Title = newTodo});
+        todos = TodoService.GetTodoList();
          newTodo = string.Empty;
        }
     }
