@@ -3,7 +3,7 @@ A simple asp.net core blazor server todo list app (.NET 7). In this project we a
 
 ### Visual Studio Code (or any code editor)
 
-1. Navigate to the `ContactsApp/Server` folder.
+1. Navigate to the `TodoList` folder 
 1. If you haven't installed the EF Core Command Line Interface (CLI), install it by following [these instructions](https://docs.microsoft.com/ef/core/miscellaneous/cli/dotnet). Choose the latest stable version (the project file currently ships with version 3.1.4).
 1. This migration step has already been done but for reference this is what you'd have done: 
 
